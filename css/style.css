@@ -189,3 +189,128 @@ ul {
   color: white;
   padding-bottom: 48px;
 }
+.content-4-container {
+  margin-top: 400px;
+}
+.content-4-title {
+  margin-bottom: 80px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.content-4-line {
+  position: relative;
+  width: 254px;
+  height: 2px;
+  background-color: #fdd6ba;
+  display: inline-block;
+  margin-top: 31px;
+  margin-right: 31px;
+}
+.content-4-line:nth-child(2) {
+  margin-left: 31px;
+}
+.content-4-line:nth-child(2):before {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+  background-color: white;
+  left: -31px;
+  right: 0;
+  top: -15px;
+}
+.content-4-line:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+  background-color: white;
+  top: -15px;
+  right: -34px;
+}
+.content-4-line:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #0e8784;
+  background-color: white;
+  top: -15px;
+  right: -34px;
+}
+.content-4-list {
+  margin-top: 82px;
+  margin-bottom: 64px;
+}
+.content-4-list {
+  display: flex;
+  justify-content: space-between;
+}
+.content-4-title-text-1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.content-4-item {
+  width: 285px;
+}
+.content-4-title-text {
+  margin-top: 38px;
+  margin-bottom: 42px;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.btn-2 {
+  margin-bottom: 200px;
+}
+footer {
+  background-color: #2c343e;
+  padding: 47px 0;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-list {
+  display: flex;
+  align-items: center;
+}
+.footer-link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.footer-item:nth-child(2) {
+  margin-left: 103px;
+}
+.footer-item:not(:nth-child(2)) {
+  margin-left: 33px;
+}
+.footer-links {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+.footer-link:hover {
+  color: #fefcf7;
+}
+#shape:hover {
+  fill: #fdd6ba;
+}
